@@ -138,6 +138,28 @@
           <e p="README.md" t="Include" />
           <e p="src" t="Include">
             <e p="app" t="Include">
+              <e p="_models" t="Include">
+                <e p="IAlbum.ts" t="Include" />
+                <e p="IArtist.ts" t="Include" />
+                <e p="IGenre.ts" t="Include" />
+              </e>
+              <e p="album" t="Include">
+                <e p="albums" t="Include">
+                  <e p="albums.component.css" t="Include" />
+                  <e p="albums.component.html" t="Include" />
+                  <e p="albums.component.ts" t="Include" />
+                </e>
+                <e p="details" t="Include">
+                  <e p="details.component.css" t="Include" />
+                  <e p="details.component.html" t="Include" />
+                  <e p="details.component.ts" t="Include" />
+                </e>
+                <e p="genres" t="Include">
+                  <e p="genres.component.css" t="Include" />
+                  <e p="genres.component.html" t="Include" />
+                  <e p="genres.component.ts" t="Include" />
+                </e>
+              </e>
               <e p="app.component.css" t="Include" />
               <e p="app.component.html" t="Include" />
               <e p="app.component.ts" t="Include" />
@@ -182,6 +204,7 @@
         </e>
         <e p="Controllers" t="Include">
           <e p="SampleDataController.cs" t="Include" />
+          <e p="StoreController.cs" t="Include" />
         </e>
         <e p="music.db" t="Include" />
         <e p="obj" t="ExcludeRecursive">
